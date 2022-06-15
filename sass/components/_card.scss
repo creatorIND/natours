@@ -1,7 +1,7 @@
 .card {
-	// FUNCTIONALITY
-	perspective: 150rem;
+	//Functionality
 	-moz-perspective: 150rem;
+	perspective: 150rem;
 	position: relative;
 	height: 52rem;
 
@@ -58,7 +58,7 @@
 		transform: rotateY(0);
 	}
 
-	// FRONT SIDE STYLING
+	//Front-side styling
 	&__picture {
 		background-size: cover;
 		height: 23rem;
@@ -74,7 +74,7 @@
 					$color-secondary-light,
 					$color-secondary-dark
 				),
-				url(../img/nat-5.jpg);
+				url(/img/nat-5.jpg);
 		}
 
 		&--2 {
@@ -83,7 +83,7 @@
 					$color-primary-light,
 					$color-primary-dark
 				),
-				url(../img/nat-6.jpg);
+				url(/img/nat-6.jpg);
 		}
 
 		&--3 {
@@ -92,7 +92,7 @@
 					$color-tertiary-light,
 					$color-tertiary-dark
 				),
-				url(../img/nat-7.jpg);
+				url(/img/nat-7.jpg);
 		}
 	}
 
@@ -158,7 +158,7 @@
 		}
 	}
 
-	// FRONT SIDE STYLING
+	//Back-side styling
 	&__cta {
 		position: absolute;
 		top: 50%;
